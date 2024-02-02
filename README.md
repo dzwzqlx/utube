@@ -35,3 +35,16 @@ New worker url: `https://yourapp.example.workers.dev/stream/UCP0uG-mcMImgKnJz-Vj
 [https://utube.arapurayil.com/stream/UCP0uG-mcMImgKnJz-VjJZmQ/master.m3u8](https://utube.arapurayil.com/stream/UCP0uG-mcMImgKnJz-VjJZmQ/master.m3u8)
 
 Play the above url in VLC media player or any player supporting hls or dash streams
+
+
+----------------------------------------------
+
+
+solution for working:
+
+change the script:
+from this:
+watch?v=
+
+to this:
+watch/index.php?v=
